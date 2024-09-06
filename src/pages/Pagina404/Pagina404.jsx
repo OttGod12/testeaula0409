@@ -1,4 +1,3 @@
-import styles from './Pagina404.module.css'
 
 export function Pagina404() {
 
