@@ -6,6 +6,7 @@ import { Home } from './pages/Home/Home.jsx'
 import { Contato } from './pages/Contato/Contato.jsx' 
 import { Sobre } from './pages/Sobre/Sobre.jsx'
 import { Pagina404 } from './pages/Pagina404/Pagina404.jsx' 
+import {Layout} from "./pages/Layout.jsx"
 
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 
@@ -19,7 +20,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 
 // ])
 const rotas = createBrowserRouter(createRoutesFromElements(
-  <Route path='/'>
+  <Route path='/' element={<Layout/>}>
       <Route index  element= {<Home/>}/>
       <Route path='home' element= {<Home/>}/>
       <Route path='contato' element= {<Contato/>}/>
