@@ -1,11 +1,12 @@
-import{Menu} from '../../Components/Menu/Menu'
+import { Pagina } from "../../Components/Pagina";
 
 export function Home() {
 
     return(
-        <div className='font-bold text-4xl'>
+       <Pagina titulo="Home" subtitulo="Página inicial">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo eveniet, quae sequi beatae commodi praesentium accusamus cumque distinctio consequatur amet dolor? Ex cupiditate minus qui ea rem doloribus facere ullam.</p>
 
-            <h1>Home</h1>
-        </div>
+
+       </Pagina>
     )
 }
