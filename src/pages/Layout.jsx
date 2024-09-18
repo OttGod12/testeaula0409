@@ -1,14 +1,14 @@
-import {Menu} from "../Components/Menu/Menu"
-import {Outlet} from "react-router-dom"
+import { Outlet } from "react-router-dom";
+import { Menu } from "../components/Menu/Menu";
 
 export function Layout() {
 
-    return(
-        <div className="flex">
-            <Menu />
-            <main>
-                <Outlet />
-            </main>
-        </div>
-    )
+  return (
+    <div className="flex">
+      <Menu />
+      <main>
+        <Outlet />
+      </main>
+    </div>
+  )
 }
