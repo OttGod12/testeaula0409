@@ -8,6 +8,8 @@ import {
   IconSquareRoundedNumber2,
   IconSquareRoundedNumber3,
   IconSquareRoundedNumber4,
+  IconSquareRoundedNumber5,
+  IconSquareRoundedNumber6,
 } from "@tabler/icons-react";
 import { NavLink } from "react-router-dom";
 
@@ -84,6 +86,18 @@ export function Menu() {
         <NavLink to="contador" className={getEstilo}>
           <IconSquareRoundedNumber4 />
           Contador
+        </NavLink>
+
+        <span className="pt-4 pl-3 text-xs text-zinc-500">Comunicação</span>
+
+        <NavLink to="comunicacaoDireta" className={getEstilo}>
+          <IconSquareRoundedNumber1 />
+          Comunicação Direta
+        </NavLink>
+
+        <NavLink to="comunicacaoIndireta" className={getEstilo}>
+          <IconSquareRoundedNumber2 />
+          Comunicação Indireta
         </NavLink>
       </nav>
 
