@@ -1,14 +1,15 @@
 import { Pagina } from "../../components/Pagina";
-import { PaiIndireta } from "../../components/comunicacao/direta/PaiDireta"
-import { FilhoIndireta } from "../../components/comunicacao/direta/PaiDireta"
+import { PaiIndireta } from "./indireta/PaiIndireta"
 
 export function ComunicacaoIndireta(){
 
     return(
         <Pagina titulo="Comunicação Indireta" subtitulo="Conceito comunicação indireta">
 
-        <PaiIndireta></PaiIndireta>
-        <FilhoIndireta></FilhoIndireta>
+        <PaiIndireta>
+        
+        </PaiIndireta>
+        
 
         </Pagina>
     )

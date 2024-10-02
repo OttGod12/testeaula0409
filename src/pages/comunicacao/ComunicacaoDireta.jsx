@@ -1,6 +1,5 @@
 import { Pagina } from "../../components/Pagina";
-import { PaiDireta } from "../../components/comunicacao/direta/PaiDireta"
-import { FilhoDireta } from "../../components/comunicacao/direta/FilhoDireta"
+import { PaiDireta } from "./direta/PaiDireta"
 
 export function ComunicacaoDireta(){
 
@@ -8,7 +7,6 @@ export function ComunicacaoDireta(){
         <Pagina titulo="Comunicação Direta" subtitulo="Conceito comunicação Direta">
 
             <PaiDireta></PaiDireta>
-            <FilhoDireta></FilhoDireta>
 
 
 
