@@ -102,9 +102,7 @@ export function Menu() {
 
       </nav>
 
-      <footer className="absolute bottom-0 p-2 flex justify-center">
-        <span>Desenvolvimento Web 2</span>
-      </footer>
+      
     </aside>
   );
 }
